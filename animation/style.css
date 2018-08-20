@@ -1,0 +1,43 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.ani-div {
+    position: relative;
+    width: 100px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.ani-div > ul {
+    position: absolute;
+    /*width 10000%로 한 이유는 리스트가 얼마나 많을지 몰라서 크게 늘려놓음*/
+    /*실제로 할때는 동적으로 리스트를 불러와서 width 지정*/
+    width: 10000%;
+    height: 100%;
+}
+
+.ani-div > ul > li {
+    float: left;
+    width: 100px;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.slide-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide-div > span {
+    position: absolute;
+    color: #ffffff;
+    cursor: pointer;
+}
+.slide-div > span:last-child {
+    right: 0;
+}
