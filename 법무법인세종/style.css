@@ -15,6 +15,7 @@
     height: 5000px;
     background-color: #333;
 }
+
 .header > .layout > a > h1 {
     float: left;
     height: 100%;
@@ -31,4 +32,45 @@
     position: relative;
     width: 1248px;
     height: 100%;
+}
+
+.header-side {
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.top-nav,
+.main-nav {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.top-nav > ul,
+.main-nav > ul {
+    float: right;
+    height: 100%;
+}
+
+.top-nav > ul > li,
+.main-nav > ul > li {
+    float: left;
+}
+
+.top-nav > ul > li,
+.main-nav > ul > li {
+    font-size: .75rem;
+    color: #2d231e;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 52px;
+    margin-left: 1.5rem;
+}
+
+.main-nav > ul > li {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-left: 3rem;
 }
