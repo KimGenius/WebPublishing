@@ -94,11 +94,11 @@ section {
 #showcase ul li img {
     width: 100%;
     margin-top: 1%;
-    -webkit-filter: grayscale(70%);
+    /*-webkit-filter: grayscale(70%);*/
 }
 
 #showcase ul li img:hover {
-    -webkit-filter: grayscale(0);
+    /*-webkit-filter: grayscale(0);*/
 }
 
 #services, #designers, #packages, #contact {
