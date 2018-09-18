@@ -2,7 +2,7 @@ $(function () {
   $('#fullpage').fullpage({
     //options here
     autoScrolling: true,
-    anchors: ['content1', 'content2', 'content3', 'content4'],
+    anchors: ['content1', 'content2', 'content3', 'content4', 'content5'],
     scrollHorizontally: true,
     licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
     navigation: true,
