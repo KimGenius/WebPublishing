@@ -7,6 +7,11 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+
+}
+
 .layout {
     position: relative;
     width: 924px;
@@ -103,7 +108,8 @@ li {
     font-weight: 300;
 }
 
-#fp-nav ul li:first-child a span {
+#fp-nav ul li:first-child a span,
+#fp-nav ul li:last-child a span {
     display: none;
 }
 
@@ -123,4 +129,36 @@ li {
 
 .content5 {
     background-color: #ffffff;
+}
+
+.content5 .layout {
+    padding: 5%;
+}
+
+.link {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.link img {
+    width: 140px;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+}
+
+.icon img {
+    width: 40px;
+    height: 35px;
+    margin-right: 1vw;
+}
+
+.info > p > a {
+    padding-bottom: 5px;
+    background: url("images/content5/link-line_01.png") bottom no-repeat;
+}
+
+.info * {
+    font-size: 15px;
+    color: #333333;
 }
