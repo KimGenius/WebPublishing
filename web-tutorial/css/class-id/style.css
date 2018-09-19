@@ -15,7 +15,7 @@ p {
 }
 
 #id1 {
-    color: black;
+    color: violet;
 }
 
 #id2 {
@@ -31,5 +31,13 @@ p {
 }
 
 #id4 {
+    color: chocolate;
+}
+
+#id5 {
     color: purple;
+}
+
+.class3 {
+    color: indigo;
 }
